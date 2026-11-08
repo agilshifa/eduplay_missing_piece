@@ -326,3 +326,111 @@ body {
 .stage-results .stage-result:nth-child(3n + 2) { background: #bfecc9; }
 .stage-results .stage-result:nth-child(3n) { background: #d9ccff; }
 footer { background: #cbe5f3; }
+
+/* Tema terpilih: Arcade Pelangi */
+:root {
+  --blue: #4b3b83;
+  --cyan: #bce8ff;
+  --yellow: #ffd66b;
+  --pink: #ffaaa5;
+  --ink: #251f49;
+  --muted: #5e577c;
+  --paper: #f0eafa;
+  --white: #fffaff;
+  --green: #25834e;
+  --shadow: 0 8px 0 rgba(43, 36, 82, .14);
+}
+body {
+  background:
+    radial-gradient(circle at 88% 14%, rgba(255, 167, 92, .20), transparent 17rem),
+    radial-gradient(circle at 12% 35%, rgba(131, 200, 255, .18), transparent 20rem),
+    var(--paper);
+  color: var(--ink);
+}
+.topbar {
+  background: rgba(240, 234, 250, .96);
+  box-shadow: 0 3px 18px rgba(43, 36, 82, .12);
+}
+.brand { color: #2b2452; }
+.brand-icon { color: #2b2452; background: #ffd66b; }
+.nav { background: transparent; border: 1px solid #d7c9ef; }
+.nav-btn { color: #5e577c; }
+.nav-btn.active { color: #291f50; background: #ffd66b; box-shadow: 0 3px 0 #c39a36; }
+.sound-btn, .secondary-btn { color: #302751; background: #d9ccff; }
+.hero {
+  background: linear-gradient(135deg, #2b2452 0%, #3c3468 70%, #514779 100%);
+  box-shadow: 0 10px 0 rgba(43, 36, 82, .14);
+}
+.hero .eyebrow { color: #9be7b1; }
+.hero h1 { color: #fff9e9; }
+.hero h1 span { color: #ffd66b; }
+.hero-copy p { color: #e0d8f5; }
+.primary-btn {
+  color: #251f49;
+  background: #ffd66b;
+  box-shadow: 0 5px 0 #c39a36;
+}
+.primary-btn:active { box-shadow: 0 2px 0 #c39a36; }
+.mini-facts { color: #f4eaff; }
+.mini-facts span { background: #40386d; }
+.art-card { background: #3c3468; border-color: #514779; }
+.art-card span { background: #95d8fa; }
+.art-card span:nth-child(3n + 2) { background: #9be7b1; }
+.art-card span:nth-child(3n) { background: #ffaaa5; }
+.art-card .missing { color: #251f49; background: #ffd66b; border-color: #e6b848; }
+.blue, .step-icon.blue { background: #bce8ff; }
+.yellow, .step-icon.yellow { background: #ffe3a0; }
+.pink, .step-icon.pink { background: #ffd0c9; }
+.info-card { background: #bce8ff; box-shadow: var(--shadow); }
+.steps .info-card:nth-child(3n + 2) { background: #c8f0d1; }
+.steps .info-card:nth-child(3n) { background: #ffd0c9; }
+.stage-preview { background: #ded5f5; box-shadow: var(--shadow); }
+.stage-chips span { color: #302751; background: #bce8ff; }
+.stage-chips span:nth-child(3n + 2) { background: #c8f0d1; }
+.stage-chips span:nth-child(3n) { background: #ffe3a0; }
+.hud-item { background: #fffaff; box-shadow: 0 4px 0 #d7c9ef; }
+.hud-item:nth-child(4n + 1) { background: #bce8ff; }
+.hud-item:nth-child(4n + 2) { background: #c8f0d1; }
+.hud-item:nth-child(4n + 3) { background: #ffe3a0; }
+.hud-item:nth-child(4n) { background: #ded5f5; }
+.hud-item small, .stat-card small { color: #514a70; }
+.progress-track { background: #d9cfea; }
+.progress-track div { background: linear-gradient(90deg, #95d8fa, #9be7b1, #ffd66b); }
+.stage-line { color: #4b3b83; }
+.game-card {
+  color: #fff9e9;
+  background: #2b2452;
+  box-shadow: 0 8px 0 #1d193a;
+}
+.game-card .instruction, .game-card .answer-area h2 { color: #fff9e9; }
+.game-card .timer-wrap, .game-card .answer-area p { color: #e0d8f5; }
+.timer-number { color: #251f49; background: #ffd66b; }
+.object-tile { background: #95d8fa; border-color: #73c2e9; }
+.object-grid .object-tile:nth-child(3n + 2) { background: #9be7b1; border-color: #6ec989; }
+.object-grid .object-tile:nth-child(3n) { background: #ffaaa5; border-color: #e47f7a; }
+.object-tile.missing-tile { color: #ffd66b; background: #514779; border-color: #ffd66b; }
+.choice-btn { color: #251f49; background: #95d8fa; }
+.choice-grid .choice-btn:nth-child(3n + 2) { background: #9be7b1; }
+.choice-grid .choice-btn:nth-child(3n) { background: #ffaaa5; }
+.choice-btn:hover { border-color: #ffd66b; }
+.choice-btn.correct { color: #173d2a; background: #9be7b1; border-color: #25834e; }
+.choice-btn.wrong { color: #542a36; background: #ffaaa5; border-color: #b84e48; }
+.feedback.good { color: #9be7b1; }
+.feedback.bad { color: #ffaaa5; }
+.game-note { color: #5e577c; }
+.stat-card { background: #bce8ff; box-shadow: var(--shadow); }
+.report-stats .stat-card:nth-child(4n + 2) { background: #c8f0d1; }
+.report-stats .stat-card:nth-child(4n + 3) { background: #ffe3a0; }
+.report-stats .stat-card:nth-child(4n) { background: #ded5f5; }
+.stat-card strong { color: #4b3b83; }
+.report-detail { color: #fff9e9; background: #2b2452; box-shadow: var(--shadow); }
+.report-detail h2 { color: #fff9e9; }
+.stage-result { color: #251f49; background: #bce8ff; }
+.stage-results .stage-result:nth-child(3n + 2) { background: #c8f0d1; }
+.stage-results .stage-result:nth-child(3n) { background: #ded5f5; }
+.stage-result p, .report-disclaimer { color: #e0d8f5; }
+.report-hero p, .empty-report { color: #5e577c; }
+footer { color: #4e476b; background: #ded5f5; }
+button:focus-visible { outline-color: #6c57b4; }
+.report-detail .stage-result p { color: #514a70; }
+.report-detail .report-disclaimer, .report-detail .empty-report { color: #e0d8f5; }
