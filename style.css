@@ -280,3 +280,49 @@ body {
 .stage-results .stage-result:nth-child(3n) { background: #eee7ff; }
 footer { background: #dceef7; color: #4f6d78; }
 button:focus-visible { outline: 3px solid #8b69c5; outline-offset: 3px; }
+
+/* Palet EduPlay dibuat lebih jelas pada pratinjau */
+:root {
+  --blue: #176287;
+  --ink: #17384a;
+  --muted: #405f6e;
+  --paper: #dff1ff;
+}
+body {
+  background: linear-gradient(135deg, #dff1ff 0%, #e7ddff 55%, #fff0bf 100%);
+}
+.topbar { background: #c9f1dc; }
+.hero {
+  background: linear-gradient(120deg, #a9e2ff 0%, #b9efc8 48%, #ffe188 100%);
+}
+.art-card { background: #e1d5ff; }
+.art-card span { background: #bfe9ff; }
+.art-card span:nth-child(3n + 2) { background: #bfecc9; }
+.art-card span:nth-child(3n) { background: #ffe18b; }
+.info-card { background: #bfecc9; }
+.steps .info-card:nth-child(3n + 2) { background: #d9ccff; }
+.steps .info-card:nth-child(3n) { background: #ffe69d; }
+.stage-preview { background: #d9ccff; }
+.hud-item:nth-child(4n + 1) { background: #bfe9ff; }
+.hud-item:nth-child(4n + 2) { background: #bfecc9; }
+.hud-item:nth-child(4n + 3) { background: #ffe69d; }
+.hud-item:nth-child(4n) { background: #d9ccff; }
+.game-card { background: #d8f2ff; }
+.object-tile { background: #bfe9ff; border-color: #7cc7eb; }
+.object-grid .object-tile:nth-child(3n + 2) { background: #bfecc9; border-color: #7dce91; }
+.object-grid .object-tile:nth-child(3n) { background: #d9ccff; border-color: #a995e8; }
+.object-tile.missing-tile { background: #ffe69d; border-color: #c99723; }
+.choice-btn { background: #bfe9ff; }
+.choice-grid .choice-btn:nth-child(3n + 2) { background: #bfecc9; }
+.choice-grid .choice-btn:nth-child(3n) { background: #d9ccff; }
+.choice-btn.correct { background: #b5e8c2; border-color: #25834e; }
+.choice-btn.wrong { background: #ffd1ca; border-color: #b84e48; }
+.stat-card { background: #bfe9ff; }
+.report-stats .stat-card:nth-child(4n + 2) { background: #bfecc9; }
+.report-stats .stat-card:nth-child(4n + 3) { background: #ffe69d; }
+.report-stats .stat-card:nth-child(4n) { background: #d9ccff; }
+.report-detail { background: #e1d5ff; }
+.stage-result { background: #bfe9ff; }
+.stage-results .stage-result:nth-child(3n + 2) { background: #bfecc9; }
+.stage-results .stage-result:nth-child(3n) { background: #d9ccff; }
+footer { background: #cbe5f3; }
