@@ -435,3 +435,16 @@ footer { color: #4e476b; background: #ded5f5; }
 button:focus-visible { outline-color: #6c57b4; }
 .report-detail .stage-result p { color: #514a70; }
 .report-detail .report-disclaimer, .report-detail .empty-report { color: #e0d8f5; }
+
+/* FONT COMIC NEUE */
+* {
+    font-family: 'Comic Neue', cursive !important;
+}
+
+body {
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, button {
+    font-weight: 700;
+}
