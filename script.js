@@ -196,7 +196,7 @@ function showQuestion() {
   state.phase = "guess";
 
   $("phaseLabel").textContent = "FASE 2 · TEMUKAN";
-  $("instruction").textContent = "Satu benda menghilang. Benda mana yang tadi kamu lihat?";
+  $("instruction").textContent = "Satu gambar menghilang. Gambar mana yang tadi kamu lihat?";
   $("timerCaption").textContent = "Pilih gambar yang hilang";
   $("timerNumber").textContent = "?";
 
