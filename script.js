@@ -67,9 +67,9 @@ function objectCount(index) {
 
 function stageTitle(stage) {
   return [
-    "TAHAP 1 · 4 OBJEK",
-    "TAHAP 2 · 6 OBJEK",
-    "TAHAP 3 · 8 OBJEK"
+    "LEVEL 1 · 4 OBJEK",
+    "LEVEL 2 · 6 OBJEK",
+    "LEVEL 3 · 8 OBJEK"
   ][stage];
 }
 
@@ -296,7 +296,7 @@ function renderReport() {
 
     return `
       <article class="stage-result">
-        <strong>${["Tahap 1 · 4 objek", "Tahap 2 · 6 objek", "Tahap 3 · 8 objek"][stage]}</strong>
+        <strong>${["Level 1 · 4 objek", "Level 2 · 6 objek", "Level 3 · 8 objek"][stage]}</strong>
         <p>${wins} benar dari ${items.length} ronde · Akurasi ${percentage}%</p>
       </article>
     `;
